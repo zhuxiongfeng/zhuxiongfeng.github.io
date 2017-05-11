@@ -97,7 +97,7 @@
 <meta property="og:url" content="http://zhuxiongfeng.github.io/2017/05/10/使用hexo建立独立博客/index.html">
 <meta property="og:site_name" content="童话镇">
 <meta property="og:description" content="什么是 Hexo？ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
-<meta property="og:updated_time" content="2017-05-11T09:41:10.243Z">
+<meta property="og:updated_time" content="2017-05-11T10:02:28.846Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Hexo建立独立博客">
 <meta name="twitter:description" content="什么是 Hexo？ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
@@ -350,16 +350,15 @@
 <p>新建完成后，指定文件夹的目录如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">|   ├── _drafts</div><div class="line">|   └── _posts</div><div class="line">└── themes</div></pre></td></tr></table></figure>
 <h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>关于配置，Hexo中有两个重要的配置文件，其名称都是_config.yml， 其中一个是站点配置文件，位于站<br>点根目录下，主要包含 Hexo 本身的配置；另一个是主题配置文件，位于主题themes目录下，这份配置由<br>主题作者提供，主要用于配置主题相关的选项。</p>
-<p>先说说站点配置文件吧，我在这里就只说说description这个配置（其他的一些你可以去官网上找），它主要<br>是用于SEO(搜索引擎优化)，通过设置它可以告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您<br>网站的关键词，这样就可以使你的博客更可能地被百度抓取到，从而提高博客的流量。</p>
+<p>先说说站点配置文件吧，我在这里就只说说description这个配置（其他的一些你可以去官网上找），它主要<br>是用于SEO(搜索引擎优化)，通过设置它可以告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您<br>网站的关键词，这样就可以使你的博客更可能地被百度抓取到，从而提高博客的流量。那么主题配置文件稍后在<br>主题那一节中会提到。</p>
 <h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><p>首先执行此命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new &lt;title&gt;</div></pre></td></tr></table></figure>
 <p>然后会生成一个.md文件，你可以使用Markdown语法在该文件中编写你的文章，写完之后，再执行此命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div></pre></td></tr></table></figure>
 <p>它会帮你生成一个html文件</p>
 <h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>我们可以通过 $ hexo s 命令在本地中浏览我们的博客 ，当然我们也可以通过 $ hexo d 把它部署到github上，然后使用github为我们提供的后台支持从而把博客部署到internet上,这样任何人就都可以通过一个网址来访问你的博客了。</p>
-<hr>
-<p>接下来谈谈主题themes:</p>
-
+<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>主题是啥？主题其实就是你博客的整体表现风格，默认的主题是landscape,而我博客用的主题是next，这个主题还是蛮受欢迎的，具体教程网上都有，最重要的一点就是主题配置文件了，前面也说过，只要把主题配置文件弄好了也就基本没啥问题了。主题配置文件中最难的应该就是集成第三方服务了，有搜索，百度统计，网易云跟帖，阅读次数统计；每个都留有api接口,配置时要尤为注意。</p>
+<h2 id="最后以一道华丽的分割线结束-D"><a href="#最后以一道华丽的分割线结束-D" class="headerlink" title="最后以一道华丽的分割线结束 :-D"></a>最后以一道华丽的分割线结束 :-D</h2>
       
     </div>
 
@@ -529,7 +528,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是-Hexo？"><span class="nav-number">1.</span> <span class="nav-text">什么是 Hexo？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#建站"><span class="nav-number">3.</span> <span class="nav-text">建站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置"><span class="nav-number">4.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#写作"><span class="nav-number">5.</span> <span class="nav-text">写作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署"><span class="nav-number">6.</span> <span class="nav-text">部署</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是-Hexo？"><span class="nav-number">1.</span> <span class="nav-text">什么是 Hexo？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#建站"><span class="nav-number">3.</span> <span class="nav-text">建站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置"><span class="nav-number">4.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#写作"><span class="nav-number">5.</span> <span class="nav-text">写作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署"><span class="nav-number">6.</span> <span class="nav-text">部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#主题"><span class="nav-number">7.</span> <span class="nav-text">主题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最后以一道华丽的分割线结束-D"><span class="nav-number"></span> <span class="nav-text">最后以一道华丽的分割线结束 :-D</span></a></div>
             
 
           </div>
